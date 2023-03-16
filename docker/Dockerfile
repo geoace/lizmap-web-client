@@ -58,6 +58,7 @@ RUN addgroup -g 1000 groupphp; \
 COPY factory.manifest /build.manifest
 COPY lizmap-entrypoint.sh update-config.php /bin/
 COPY scripts/* /usr/local/bin/
+COPY lizmod /www/lizmap
 
 ## Install healtcheck script
 COPY php-fpm-healthcheck /usr/local/bin/
