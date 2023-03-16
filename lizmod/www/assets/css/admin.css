@@ -1,0 +1,172 @@
+#menu .nav-list > li > a {
+  background-repeat : no-repeat;
+  background-position : left center;
+  padding-left : 20px;
+}
+
+#content {
+  font-size:0.8em;
+}
+
+#auth_login_zone {
+    max-width:450px;
+    margin: auto;
+}
+
+.jforms-error-list {
+    margin-left: 0;
+    background-color: #C43C35;
+    background-image: linear-gradient(to bottom , #EE5F5B, #C43C35);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+/*    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);*/
+    border-radius: 4px 4px 4px 4px;
+    padding: 10px;
+    color: white;
+}
+.jforms-error-list li {
+    list-style: none;
+    color: #FFF;
+}
+
+
+fieldset legend {
+    width:auto;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-bottom: 0px;
+    font-size:14px;
+}
+
+fieldset legend label {
+    display:inline-block;
+}
+
+fieldset {
+    border: 1px solid #c5c5c5;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.services-table th {
+    width: 30%;
+    min-width: 10em;
+}
+
+.form-horizontal .control-label {
+    width: 240px;
+}
+
+.form-horizontal .controls {
+    margin-left: 250px;
+}
+
+.table .table {
+    background-color:transparent;
+}
+
+
+#dashboard-content {
+    padding-left: 2.127659574468085%;
+}
+
+.dashboard-widget h3 {
+    background-color: #eeeeee;
+    margin: 0 0 10px 0;
+    padding: 0 10px;
+}
+
+.table-server-info th,
+.table-server-info td
+{
+    width: 50%;
+}
+
+
+@media (max-width: 480px) {
+    .form-horizontal .controls {
+        margin-left: 0px;
+    }
+}
+
+/* Admin QGIS project lists */
+div#lizmap_project_list_container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 100%;
+    margin: auto;
+ }
+
+#lizmap_project_list {
+    flex-basis: 0;
+    flex-grow: 999;
+    min-inline-size: 60%;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+#lizmap_project_list_sidebar {
+    background-color: lightgray;
+    padding: 5px;
+    flex-basis: 30%;
+    flex-grow: 1;
+}
+#lizmap_project_list_sidebar.collapsed {
+    display: none;
+}
+table.lizmap_project_list tr {
+    cursor: pointer;
+}
+table.lizmap_project_list tr.selected {
+    background-color: lightskyblue;
+}
+table.lizmap_project_list tr.active a,
+table.lizmap_project_list tr.active a:hover,
+table.lizmap_project_list tr.selected a,
+table.lizmap_project_list tr.selected a:hover{
+  color: white;
+  text-decoration: underline dotted;
+}
+
+#lizmap_project_list_sidebar dt {
+    margin-top: 5px;
+}
+#lizmap_project_list_sidebar dd {
+    padding: 5px;
+    max-height: 250px;
+    overflow: auto;
+    background-color: #efefef;
+}
+dd#dd_image_value {
+    background-color: transparent;
+}
+dd#dd_image_value img {
+    height: 150px;
+}
+dd#dd_qgis_logs_value {
+    font-size: 0.8em;
+    line-height: 15px;
+}
+
+.jacl2-list.jacl2-list-sticky-heads thead,
+.jacl2-list-user.jacl2-list-sticky-heads thead
+{
+    top: 75px;
+}
+
+#groups-list_wrapper,
+#users-list_wrapper
+{
+    padding: 1em 0 1em 2em;
+}
+
+.copy-to-clipboard {
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.copy-to-clipboard svg {
+    pointer-events: none;
+}
